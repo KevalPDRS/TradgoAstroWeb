@@ -1,0 +1,59 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "search.exclude": {
+    "components.d.ts": true,
+    "auto-imports.d.ts": true,
+    "dist": true
+  },
+  "[typescript][javascript][jsonc][json][css][html][markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always",
+      "source.fixAll.stylelint": "always"
+    }
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always",
+      "source.fixAll.stylelint": "always"
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always",
+      "source.fixAll.stylelint": "always"
+    }
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {},
+  "eslint.validate": [
+    "typescript",
+    "json",
+    "jsonc",
+    "javascript",
+    "html",
+    "vue",
+    "markdown",
+    "javascriptreact",
+    "astro"
+  ],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "conventionalCommits.lineBreak": "\\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    // "**/.husky": true,
+    //__unconfig_astro.config.ts
+    "_unconfig_astro.config.mjs": true
+  }
+}

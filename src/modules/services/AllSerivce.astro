@@ -1,0 +1,45 @@
+---
+// import Layout from "@/layouts/BlogPost.astro";
+
+// import TgRechargeService from "@/modules/services/RechargeService.vue";
+import RechargeTab from "./RechargeTab/RechargeTab.vue";
+// import DynamicName from "./RechargeTab/DynamicName.vue";
+// import CusomerInfo from "./models/CusomerInfo.vue";
+// import ConfirmDetails from "./models/ConfirmDetails.vue";
+// import SelectOptiontoPay from "./models/SelectOptiontoPay.vue";
+// import ResponseMessage from "./models/ResponseMessage.vue";
+// import RechargeStatus from "./models/RechargeStatus.vue";
+// import Demo from "./models/demo.vue";
+// import Demo from "./RechargeTab/Demo.vue";
+
+import BannerCarousel from "@/modules/services/BannerCarousel.vue";
+import EasyRecharge from "@/modules/services/EasyRecharge.vue";
+import TradeGoMobileApp from "@/modules/homepage/components/TradeGoMobileApp.vue";
+---
+
+<!-- <Layout> -->
+<main class="flex flex-col gap-4">
+  <div class="bg-secondary">
+    <!-- <TgRechargeService client:load /> -->
+    <slot />
+    <div class="h-8"></div>
+    <RechargeTab client:load />
+    <!-- <div class="h-8"></div> -->
+    <!-- <DynamicName client:load /> -->
+    <!-- <div class="h-8"></div> -->
+    <!-- <div class="container mx-auto flex gap-4"> -->
+    <!-- <Demo client:load /> -->
+    <!-- <CusomerInfo client:load /> -->
+    <!-- <ConfirmDetails client:load /> -->
+    <!-- <SelectOptiontoPay client:load /> -->
+    <!-- <RechargeStatus client:load /> -->
+    <!-- <ResponseMessage client:load /> -->
+    <div class="h-8"></div>
+  </div>
+</main>
+<BannerCarousel client:load />
+<EasyRecharge />
+<TradeGoMobileApp />
+
+<div class="h-6 bg-transparent"></div>
+<!-- </Layout> -->

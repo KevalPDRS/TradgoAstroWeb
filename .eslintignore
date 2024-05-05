@@ -1,0 +1,11 @@
+# Common
+
+node_modules
+dist
+.nuxt
+coverage
+lib/templates
+.output
+*.css
+*.bat
+*.sh

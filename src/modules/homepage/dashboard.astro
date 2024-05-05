@@ -1,0 +1,19 @@
+---
+import Banner from "./components/Banner.vue";
+import BillPayment from "./components/BillPayment.vue";
+import TradeGoMark from "./components/TradeGoMark.vue";
+import TradeGoMobileApp from "./components/TradeGoMobileApp.vue";
+import ReferAndEarn from "./components/Refer&Earn.vue";
+import TestimonialSlider from "./components/testimonialSlider/testimonialSlider.vue";
+---
+
+<main>
+  <div class="z-1">
+    <Banner />
+    <BillPayment client:load />
+    <TradeGoMark />
+    <TradeGoMobileApp />
+    <ReferAndEarn />
+    <TestimonialSlider client:load />
+  </div>
+</main>

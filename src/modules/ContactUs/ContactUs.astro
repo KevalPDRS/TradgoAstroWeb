@@ -1,0 +1,12 @@
+---
+import Contact from "@/modules/ContactUs/components/contact_us.vue";
+import Layout from "@/layouts/BlogPost.astro";
+---
+
+<Layout>
+  <div class="h-6 bg-transparent"></div>
+  <main class="container mx-auto bg-white rounded-3xl shadow-xl">
+    <Contact client:load />
+  </main>
+  <div class="h-6 bg-transparent"></div>
+</Layout>

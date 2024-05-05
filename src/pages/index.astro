@@ -1,0 +1,33 @@
+---
+import { SITE_TITLE } from "../consts";
+import BaseHead from "@/components/BaseHead.astro";
+// export const prerender = false;
+
+// import Header from "@/components/Header.astro";
+// import Footer from "@/components/Footer.astro";
+import Layout from "@/layouts/BlogPost.astro";
+import HomePage from "@/modules/homepage/dashboard.astro";
+import FloatingModel from "@/modules/homepage/components/FloatingModel.vue";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body class="">
+    <Layout>
+      <HomePage />
+      <FloatingModel />
+    </Layout>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+---
+import HeaderLink from "@/components/HeaderLink.astro";
+---
+
+<footer class="bg-secondary px-4 sm:px-0">
+  <div class="container mx-auto flex flex-col gap-4 relative">
+    <div class="absolute top-0 -right-4 md:right-8 sm:right-24 opacity-10 w-80">
+      <img
+        class="w-full"
+        src="./../../../public/images/tradgo_icon/tradgo_icon.png"
+        alt="Tradgo"
+      />
+    </div>
+    <div class="container mx-auto pt-10 z-10">
+      <div class="block md:flex text-white gap-4 px-4">
+        <div class="flex-1 w-full pb-4 md:pb-0">
+          <div class="flex flex-col gap-4">
+            <HeaderLink href="/" class="no-underline text-white">
+              <svg
+                viewBox="0 0 174 49"
+                width="150"
+                height="42"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.29785 10.5098V4.40625H13.6484V10.5098H19.8008V17.7852H13.6484V27.2578C13.6484 28.8854 14.2751 29.8945 15.5283 30.2852C16.6188 30.6758 18.043 30.7165 19.8008 30.4072V38.0488C18.0918 38.3092 16.277 38.4395 14.3564 38.4395C10.7594 38.4395 8.18783 37.5605 6.6416 35.8027C5.0791 34.0449 4.29785 31.3105 4.29785 27.5996V17.7852H0.977539V10.5098H4.29785ZM23.7314 38V10.5098H32.667L33.1064 13.5615C34.6201 11.234 37.4359 10.0622 41.5537 10.0459V17.9561C35.9222 17.9561 33.1064 20.0557 33.1064 24.2549V38H23.7314ZM55.0791 10.0215C57.0973 10.0215 58.847 10.3551 60.3281 11.0225C61.8255 11.6735 62.9079 12.5931 63.5752 13.7812L64.0146 10.5098H72.9502V38H64.0146L63.5752 34.7285C62.9404 35.9329 61.8825 36.8607 60.4014 37.5117C58.9202 38.1465 57.1462 38.4639 55.0791 38.4639C51.4984 38.4639 48.5036 37.1374 46.0947 34.4844C43.6859 31.8639 42.4814 28.4541 42.4814 24.2549C42.4814 20.0719 43.6859 16.654 46.0947 14.001C48.5036 11.348 51.4984 10.0215 55.0791 10.0215ZM53.541 28.8203C54.6478 29.9759 56.0394 30.5537 57.7158 30.5537C59.376 30.5537 60.7676 29.9759 61.8906 28.8203C63.0137 27.681 63.5752 26.1592 63.5752 24.2549C63.5752 22.3506 63.0137 20.8206 61.8906 19.665C60.7676 18.5257 59.376 17.9561 57.7158 17.9561C56.0231 17.9561 54.6315 18.5257 53.541 19.665C52.418 20.8206 51.8564 22.3506 51.8564 24.2549C51.8564 26.1592 52.418 27.681 53.541 28.8203ZM88.7217 10.0215C90.7399 10.0215 92.4896 10.3551 93.9707 11.0225C95.4681 11.6735 96.5505 12.5931 97.2178 13.7812V0.5H106.593V38H97.6572L97.2178 34.7285C96.583 35.9329 95.5251 36.8607 94.0439 37.5117C92.5628 38.1465 90.7887 38.4639 88.7217 38.4639C85.141 38.4639 82.1462 37.1374 79.7373 34.4844C77.3285 31.8639 76.124 28.4541 76.124 24.2549C76.124 20.0719 77.3285 16.654 79.7373 14.001C82.1462 11.348 85.141 10.0215 88.7217 10.0215ZM91.3584 30.5537C93.0186 30.5537 94.4102 29.9759 95.5332 28.8203C96.6562 27.681 97.2178 26.1592 97.2178 24.2549C97.2178 22.3506 96.6562 20.8206 95.5332 19.665C94.4102 18.5257 93.0186 17.9561 91.3584 17.9561C89.6657 17.9561 88.2741 18.5257 87.1836 19.665C86.0605 20.8206 85.499 22.3506 85.499 24.2549C85.499 26.1592 86.0687 27.681 87.208 28.8203C88.3311 29.9759 89.7145 30.5537 91.3584 30.5537Z"
+                  fill="#FFFFFF"></path>
+                <path
+                  d="M130.86 13.7812L131.3 10.5098H140.235V36.0469C140.235 38.6999 139.584 40.9867 138.282 42.9072C136.98 44.7952 135.239 46.195 133.058 47.1064C130.844 48.0179 128.329 48.4736 125.514 48.4736C119.801 48.4736 115.219 46.5531 111.769 42.7119L116.09 37.7559C118.124 39.9857 121.021 41.1006 124.781 41.1006C126.458 41.1006 127.89 40.6042 129.078 39.6113C130.266 38.6185 130.86 37.292 130.86 35.6318V33.6055C129.656 35.8353 126.824 36.9502 122.364 36.9502C120.623 36.9502 118.979 36.6328 117.433 35.998C115.886 35.3633 114.544 34.4681 113.404 33.3125C112.265 32.1569 111.37 30.7409 110.719 29.0645C110.084 27.388 109.767 25.5895 109.767 23.6689C109.767 19.7464 110.979 16.4831 113.404 13.8789C115.829 11.3073 118.816 10.0215 122.364 10.0215C124.382 10.0215 126.132 10.3551 127.613 11.0225C129.111 11.6735 130.193 12.5931 130.86 13.7812ZM125.001 29.4307C126.645 29.4307 128.036 28.8854 129.176 27.7949C130.299 26.6882 130.86 25.3128 130.86 23.6689C130.86 22.0251 130.299 20.6579 129.176 19.5674C128.036 18.4932 126.645 17.9561 125.001 17.9561C123.39 17.9561 122.006 18.4932 120.851 19.5674C119.711 20.6579 119.142 22.0251 119.142 23.6689C119.142 25.3291 119.711 26.7044 120.851 27.7949C121.99 28.8854 123.373 29.4307 125.001 29.4307ZM164.454 37.4873C162.647 38.1058 160.711 38.415 158.644 38.415C156.576 38.415 154.64 38.1058 152.833 37.4873C148.943 36.1527 146.217 33.752 144.654 30.2852C143.824 28.4785 143.409 26.4684 143.409 24.2549C143.409 22.0576 143.824 20.0394 144.654 18.2002C146.201 14.766 148.927 12.3652 152.833 10.998C154.64 10.3796 156.576 10.0703 158.644 10.0703C160.711 10.0703 162.647 10.3796 164.454 10.998C168.36 12.3652 171.095 14.766 172.657 18.2002C173.471 20.0557 173.878 22.0739 173.878 24.2549C173.878 26.4521 173.471 28.4622 172.657 30.2852C171.078 33.752 168.344 36.1527 164.454 37.4873ZM154.444 28.8203C155.567 29.9759 156.967 30.5537 158.644 30.5537C160.304 30.5537 161.695 29.9759 162.818 28.8203C163.941 27.681 164.503 26.1592 164.503 24.2549C164.503 22.3506 163.941 20.8206 162.818 19.665C161.695 18.5257 160.304 17.9561 158.644 17.9561C156.967 17.9561 155.567 18.5257 154.444 19.665C153.321 20.8206 152.76 22.3506 152.76 24.2549C152.76 26.1592 153.321 27.681 154.444 28.8203Z"
+                  fill="#20A7DB"></path>
+              </svg>
+            </HeaderLink>
+            <p class="p-0 m-0">
+              tradgo is an online platform that provides a quick and convenient
+              solution for mobile recharge.
+            </p>
+            <div class="flex gap-4">
+              <HeaderLink
+                class="no-underline text-white"
+                href="https://m.facebook.com/tradgoindia"
+                target="_blank">
+                <img
+                  class="w-8"
+                  src="./../../../public/images/social_media_icons/facebook.svg"
+                  alt="facebook"
+                />
+              </HeaderLink>
+              <HeaderLink
+                class="no-underline text-white"
+                href="https://twitter.com/Tradgo2"
+                target="_blank">
+                <img
+                  class="w-8"
+                  src="./../../../public/images/social_media_icons/twitter.svg"
+                  alt="twitter"
+                />
+              </HeaderLink>
+              <HeaderLink
+                class="no-underline text-white"
+                href="https://www.youtube.com/@TradgoApp"
+                target="_blank">
+                <img
+                  class="w-8"
+                  src="./../../../public/images/social_media_icons/youtube.svg"
+                  alt="youtube"
+                />
+              </HeaderLink>
+              <HeaderLink
+                class="no-underline text-white"
+                href="https://www.instagram.com/tradgo_app/"
+                target="_blank">
+                <img
+                  class="w-8"
+                  src="./../../../public/images/social_media_icons/instagram.svg"
+                  alt="instagram"
+                />
+              </HeaderLink>
+            </div>
+          </div>
+        </div>
+        <div class="block sm:flex items-start">
+          <div class="flex flex-col max-w-52 w-full gap-2 mb-2 sm-0">
+            <p class="font-bold text-2xl p-0 m-0">Company</p>
+            <HeaderLink href="/about" class="no-underline text-white"
+              ><p class="p-0 m-0">About Us</p></HeaderLink
+            ><HeaderLink />
+            <HeaderLink href="#" class="no-underline text-white"
+              ><p class="p-0 m-0">FAQs</p></HeaderLink
+            ><HeaderLink />
+          </div>
+          <div class="flex flex-col max-w-52 w-full gap-2 mb-2 sm-0">
+            <p class="font-bold text-2xl p-0 m-0">Install App</p>
+            <HeaderLink
+              href="#"
+              class="no-underline text-white"
+              target="_blank">
+              <img
+                class="w-32"
+                src="./../../../public/images/tradgo_store_image/app_store_light_badge.png"
+                alt="app_store"
+              />
+            </HeaderLink>
+            <HeaderLink
+              class="no-underline text-white"
+              href="https://play.google.com/store/apps/details?id=com.tradgo&hl=en_IN&gl=US"
+              target="_blank">
+              <img
+                class="w-32"
+                src="./../../../public/images/tradgo_store_image/google_play_light_badge.png"
+                alt="google_play_store"
+              />
+            </HeaderLink>
+          </div>
+          <div class="flex flex-col max-w-60 w-full gap-2 mb-2 sm-0">
+            <HeaderLink
+              class="no-underline text-white font-bold text-2xl"
+              href="/contact">Contact Us</HeaderLink
+            >
+            <div class="flex gap-2">
+              <img
+                class="w-6"
+                src="./../../../public/images/tradgo_icon/mail_icon.svg"
+                alt="map"
+              />
+              <p class="p-0 m-0" class="flex-1">info@tradgo.in</p>
+            </div>
+            <div class="flex gap-2">
+              <img
+                class="w-6"
+                src="./../../../public/images/tradgo_icon/phone_icon.svg"
+                alt="phone"
+              />
+              <p class="p-0 m-0" class="flex-1">+91 97783 44449</p>
+            </div>
+            <div class="flex gap-2 items-start">
+              <img
+                class="w-6"
+                src="./../../../public/images/tradgo_icon/map_icon.svg"
+                alt="map"
+              />
+              <p class="p-0 m-0" class="flex-1">
+                316 Trade Square, Near Parishkar Flat, Khokhra, Ahmedabad 380008
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="container mx-auto" />
+    <div class="container mx-auto pb-4 px-4">
+      <div class="block md:flex items-center justify-between text-white">
+        <div>Copyright c 2019 TradGo. All Rights Reserved</div>
+        <div class="flex gap-2">
+          <HeaderLink href="/privacyPolicy" class="no-underline text-white"
+            ><p class="p-0 m-0">Privacy Policy</p></HeaderLink
+          >|
+          <HeaderLink href="/termsAndConditions" class="no-underline text-white"
+            ><p class="p-0 m-0">Terms & Conditions</p></HeaderLink
+          >|
+          <HeaderLink href="/refundPolicy" class="no-underline text-white"
+            ><p class="p-0 m-0">Refund Policy</p></HeaderLink
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<style></style>

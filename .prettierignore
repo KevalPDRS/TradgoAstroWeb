@@ -1,0 +1,9 @@
+/node_modules/**
+/dist/**
+/tests/unit/coverage/**
+/cypress/
+/.nuxt/
+/.output/
+.env
+/.other/
+/.vercel/

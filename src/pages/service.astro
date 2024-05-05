@@ -1,0 +1,14 @@
+---
+import { SITE_TITLE } from "../consts";
+import BaseHead from "@/components/BaseHead.astro";
+
+import ServiceLayout from "@/layouts/Service.astro";
+import AllService from "@/modules/services/AllSerivce.astro";
+---
+
+<BaseHead title={SITE_TITLE} />
+<ServiceLayout>
+  <main class="flex flex-col gap-4">
+    <AllService />
+  </main>
+</ServiceLayout>

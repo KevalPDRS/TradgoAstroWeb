@@ -1,0 +1,15 @@
+---
+import { SITE_TITLE } from "../consts";
+import BaseHead from "@/components/BaseHead.astro";
+import AboutUs from "@/modules/AboutUs/about_us.vue";
+import Layout from "@/layouts/BlogPost.astro";
+---
+
+<BaseHead title={SITE_TITLE} />
+<Layout>
+  <div class="h-6 bg-transparent"></div>
+  <main class="container mx-auto bg-white rounded-3xl shadow-xl">
+    <AboutUs client:load />
+  </main>
+  <div class="h-6 bg-transparent"></div>
+</Layout>
